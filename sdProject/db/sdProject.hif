@@ -1,0 +1,477 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+12
+1222
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+sdProjectULA
+# storage
+db|sdProject.(1).cnf
+db|sdProject.(1).cnf
+# case_insensitive
+# source_file
+sdprojectula.bdf
+e92e54b42b9613a87c166d90ae52279
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectCompare
+# storage
+db|sdProject.(2).cnf
+db|sdProject.(2).cnf
+# case_insensitive
+# source_file
+sdprojectcompare.bdf
+bab6dafcdaf2b66c69bc4c53c3716a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectCompare:inst8
+}
+# macro_sequence
+
+# end
+# entity
+Mair
+# storage
+db|sdProject.(3).cnf
+db|sdProject.(3).cnf
+# case_insensitive
+# source_file
+mair.bdf
+7a613bb4346dead277a7c4e026258958
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectCompare:inst8|Mair:inst3
+}
+# macro_sequence
+
+# end
+# entity
+Menor
+# storage
+db|sdProject.(4).cnf
+db|sdProject.(4).cnf
+# case_insensitive
+# source_file
+menor.bdf
+869ffa7d75bcc3fa71b356dc277a18c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectCompare:inst8|Menor:inst2
+}
+# macro_sequence
+
+# end
+# entity
+Igual
+# storage
+db|sdProject.(5).cnf
+db|sdProject.(5).cnf
+# case_insensitive
+# source_file
+igual.bdf
+ba66778ec09c44bbbad264953c2bfe8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectCompare:inst8|Igual:inst
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectDemuxSinal
+# storage
+db|sdProject.(7).cnf
+db|sdProject.(7).cnf
+# case_insensitive
+# source_file
+sdprojectdemuxsinal.bdf
+aadde4958b61d53b16c596d73650915a
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxSinal:inst50
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectDemuxSelecSub
+# storage
+db|sdProject.(8).cnf
+db|sdProject.(8).cnf
+# case_insensitive
+# source_file
+sdprojectdemuxselecsub.bdf
+4733f9e748af7efea73cd6eb1176beda
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxSelecSub:inst
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectMaiorQueModulo
+# storage
+db|sdProject.(9).cnf
+db|sdProject.(9).cnf
+# case_insensitive
+# source_file
+sdprojectmaiorquemodulo.bdf
+b228eb37ab47a682c5386e3b606ee5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectMaiorQueModulo:inst7
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectDemuxNum
+# storage
+db|sdProject.(10).cnf
+db|sdProject.(10).cnf
+# case_insensitive
+# source_file
+sdprojectdemuxnum.bdf
+ec8dab6b6e74fab2eabf74cb98ffa945
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxNum:inst26
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxNum:inst24
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxNum:inst25
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectComplemento
+# storage
+db|sdProject.(11).cnf
+db|sdProject.(11).cnf
+# case_insensitive
+# source_file
+sdprojectcomplemento.bdf
+efac85ec95a04bbc5866ae19f68421a1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28
+sdProjectULA:inst|sdProjectComplemento:inst3
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectSomador
+# storage
+db|sdProject.(12).cnf
+db|sdProject.(12).cnf
+# case_insensitive
+# source_file
+sdprojectsomador.bdf
+b1baadda3b624acb8d79173513a1fbfb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst
+sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectSomadorCompleto
+# storage
+db|sdProject.(13).cnf
+db|sdProject.(13).cnf
+# case_insensitive
+# source_file
+sdprojectsomadorcompleto.bdf
+fc53512f7b94bd818d17f1145b2887fc
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectSomadorCompleto:inst1
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectSomadorCompleto:inst3
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectSomadorCompleto:inst2
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectSomadorCompleto:inst4
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectSomadorCompleto:inst1
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectSomadorCompleto:inst3
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectSomadorCompleto:inst2
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectSomadorCompleto:inst4
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectSomadorCompleto:inst1
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectSomadorCompleto:inst3
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectSomadorCompleto:inst2
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectSomadorCompleto:inst4
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectSomadorCompleto:inst1
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectSomadorCompleto:inst3
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectSomadorCompleto:inst2
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectSomadorCompleto:inst4
+sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectSomadorCompleto:inst1
+sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectSomadorCompleto:inst3
+sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectSomadorCompleto:inst2
+sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectSomadorCompleto:inst4
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectMeioSomador
+# storage
+db|sdProject.(14).cnf
+db|sdProject.(14).cnf
+# case_insensitive
+# source_file
+sdprojectmeiosomador.bdf
+9df6259c1c21751364dceeeeb26ed7f7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectMeioSomador:inst
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectMeioSomador:inst
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectMeioSomador:inst
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectMeioSomador:inst
+sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectMeioSomador:inst
+}
+# macro_sequence
+
+# end
+# entity
+sdProject_Mux
+# storage
+db|sdProject.(15).cnf
+db|sdProject.(15).cnf
+# case_insensitive
+# source_file
+sdproject_mux.bdf
+20d253893dd492c60996de2134c8586
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProject_Mux:inst
+}
+# macro_sequence
+
+# end
+# entity
+sdProject_And
+# storage
+db|sdProject.(16).cnf
+db|sdProject.(16).cnf
+# case_insensitive
+# source_file
+sdproject_and.bdf
+9b96daa6e3be9234e422485c22323e84
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProject_And:inst1
+}
+# macro_sequence
+
+# end
+# entity
+sdProject_Xor
+# storage
+db|sdProject.(17).cnf
+db|sdProject.(17).cnf
+# case_insensitive
+# source_file
+sdproject_xor.bdf
+a4b37dd88242447beb72be4097484d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProject_Xor:inst4
+}
+# macro_sequence
+
+# end
+# entity
+sdDecIn6correto
+# storage
+db|sdProject.(18).cnf
+db|sdProject.(18).cnf
+# case_insensitive
+# source_file
+sddecin6correto.bdf
+e82240eeb02c25b732e33cb62f9cfa1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdDecIn6correto:inst2
+sdDecIn6correto:inst3
+}
+# macro_sequence
+
+# end
+# entity
+sdDecOut
+# storage
+db|sdProject.(19).cnf
+db|sdProject.(19).cnf
+# case_insensitive
+# source_file
+sddecout.bdf
+a5f093275b8e960a6a05898d585dc8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdDecOut:inst4
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectMuxDec
+# storage
+db|sdProject.(20).cnf
+db|sdProject.(20).cnf
+# case_insensitive
+# source_file
+sdprojectmuxdec.bdf
+9453a020712e556fb1a95cbe2e1b84c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectMuxDec:inst1
+sdProjectMuxDec:inst5
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectMain
+# storage
+db|sdProject.(0).cnf
+db|sdProject.(0).cnf
+# case_insensitive
+# source_file
+sdprojectmain.bdf
+42ca742b2df487e5a11b8bc57c1e076
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+sdProjectSomadorESubtrator
+# storage
+db|sdProject.(6).cnf
+db|sdProject.(6).cnf
+# case_insensitive
+# source_file
+sdprojectsomadoresubtrator.bdf
+cdb5a641367da7cb1e57ab3f51710d6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sdProjectULA:inst|sdProjectSomadorESubtrator:inst2
+}
+# macro_sequence
+
+# end
+# complete
+

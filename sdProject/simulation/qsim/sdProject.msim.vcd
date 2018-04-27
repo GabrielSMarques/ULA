@@ -1,0 +1,360 @@
+$comment
+	File created using the following command:
+		vcd file sdProject.msim.vcd -direction
+$end
+$date
+	Fri Apr 13 22:04:05 2018
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module sdProjectMain_vlg_vec_tst $end
+$var reg 1 ! A0 $end
+$var reg 1 " A1 $end
+$var reg 1 # A2 $end
+$var reg 1 $ A3 $end
+$var reg 1 % A4 $end
+$var reg 1 & B0 $end
+$var reg 1 ' B1 $end
+$var reg 1 ( B2 $end
+$var reg 1 ) B3 $end
+$var reg 1 * B4 $end
+$var reg 1 + S0 $end
+$var reg 1 , S1 $end
+$var reg 1 - S2 $end
+$var wire 1 . ADEZA $end
+$var wire 1 / ADEZB $end
+$var wire 1 0 ADEZC $end
+$var wire 1 1 ADEZD $end
+$var wire 1 2 ADEZE $end
+$var wire 1 3 ADEZF $end
+$var wire 1 4 ADEZG $end
+$var wire 1 5 ASIGNAL $end
+$var wire 1 6 AUNIA $end
+$var wire 1 7 AUNIB $end
+$var wire 1 8 AUNIC $end
+$var wire 1 9 AUNID $end
+$var wire 1 : AUNIE $end
+$var wire 1 ; AUNIF $end
+$var wire 1 < AUNIG $end
+$var wire 1 = BDEZA $end
+$var wire 1 > BDEZB $end
+$var wire 1 ? BDEZC $end
+$var wire 1 @ BDEZD $end
+$var wire 1 A BDEZE $end
+$var wire 1 B BDEZF $end
+$var wire 1 C BDEZG $end
+$var wire 1 D BSIGNAL $end
+$var wire 1 E BUNIA $end
+$var wire 1 F BUNIB $end
+$var wire 1 G BUNIC $end
+$var wire 1 H BUNID $end
+$var wire 1 I BUNIE $end
+$var wire 1 J BUNIF $end
+$var wire 1 K BUNIG $end
+$var wire 1 L COMP0 $end
+$var wire 1 M COMP1 $end
+$var wire 1 N COMP2 $end
+$var wire 1 O COMP3 $end
+$var wire 1 P COMP4 $end
+$var wire 1 Q OUT0 $end
+$var wire 1 R OUT1 $end
+$var wire 1 S OUT2 $end
+$var wire 1 T OUT3 $end
+$var wire 1 U OUT4 $end
+$var wire 1 V OUTCOMP $end
+$var wire 1 W OUTSINAL $end
+
+$scope module i1 $end
+$var wire 1 X gnd $end
+$var wire 1 Y vcc $end
+$var wire 1 Z unknown $end
+$var tri1 1 [ devclrn $end
+$var tri1 1 \ devpor $end
+$var tri1 1 ] devoe $end
+$var wire 1 ^ OUT0~output_o $end
+$var wire 1 _ OUT1~output_o $end
+$var wire 1 ` OUT2~output_o $end
+$var wire 1 a OUT3~output_o $end
+$var wire 1 b OUT4~output_o $end
+$var wire 1 c ASIGNAL~output_o $end
+$var wire 1 d BSIGNAL~output_o $end
+$var wire 1 e OUTSINAL~output_o $end
+$var wire 1 f ADEZA~output_o $end
+$var wire 1 g ADEZB~output_o $end
+$var wire 1 h ADEZC~output_o $end
+$var wire 1 i ADEZD~output_o $end
+$var wire 1 j ADEZE~output_o $end
+$var wire 1 k ADEZF~output_o $end
+$var wire 1 l ADEZG~output_o $end
+$var wire 1 m AUNIA~output_o $end
+$var wire 1 n AUNIB~output_o $end
+$var wire 1 o AUNIC~output_o $end
+$var wire 1 p AUNID~output_o $end
+$var wire 1 q AUNIE~output_o $end
+$var wire 1 r AUNIF~output_o $end
+$var wire 1 s AUNIG~output_o $end
+$var wire 1 t BDEZA~output_o $end
+$var wire 1 u BDEZB~output_o $end
+$var wire 1 v BDEZC~output_o $end
+$var wire 1 w BDEZD~output_o $end
+$var wire 1 x BDEZE~output_o $end
+$var wire 1 y BDEZF~output_o $end
+$var wire 1 z BDEZG~output_o $end
+$var wire 1 { BUNIA~output_o $end
+$var wire 1 | BUNIB~output_o $end
+$var wire 1 } BUNIC~output_o $end
+$var wire 1 ~ BUNID~output_o $end
+$var wire 1 !! BUNIE~output_o $end
+$var wire 1 "! BUNIF~output_o $end
+$var wire 1 #! BUNIG~output_o $end
+$var wire 1 $! COMP0~output_o $end
+$var wire 1 %! COMP1~output_o $end
+$var wire 1 &! COMP2~output_o $end
+$var wire 1 '! COMP3~output_o $end
+$var wire 1 (! COMP4~output_o $end
+$var wire 1 )! OUTCOMP~output_o $end
+$var wire 1 *! B2~input_o $end
+$var wire 1 +! B1~input_o $end
+$var wire 1 ,! B3~input_o $end
+$var wire 1 -! B4~input_o $end
+$var wire 1 .! inst2|inst28|inst|inst3|inst3~combout $end
+$var wire 1 /! inst2|inst28|inst|inst3|inst1~combout $end
+$var wire 1 0! S2~input_o $end
+$var wire 1 1! S0~input_o $end
+$var wire 1 2! B0~input_o $end
+$var wire 1 3! S1~input_o $end
+$var wire 1 4! inst2|inst|inst30~0_combout $end
+$var wire 1 5! inst2|inst25|inst2~combout $end
+$var wire 1 6! inst2|inst25|inst7~combout $end
+$var wire 1 7! A0~input_o $end
+$var wire 1 8! A1~input_o $end
+$var wire 1 9! A2~input_o $end
+$var wire 1 :! A3~input_o $end
+$var wire 1 ;! A4~input_o $end
+$var wire 1 <! inst2|inst27|inst|inst2|inst3~combout $end
+$var wire 1 =! inst2|inst24|inst13~0_combout $end
+$var wire 1 >! inst2|inst25|inst8~combout $end
+$var wire 1 ?! inst2|inst24|inst14~0_combout $end
+$var wire 1 @! inst2|inst24|inst15~0_combout $end
+$var wire 1 A! inst2|inst25|inst15~0_combout $end
+$var wire 1 B! inst2|inst29|inst1|inst4~0_combout $end
+$var wire 1 C! inst2|inst25|inst3~combout $end
+$var wire 1 D! inst2|inst29|inst2|inst4~0_combout $end
+$var wire 1 E! inst2|inst29|inst3|inst4~0_combout $end
+$var wire 1 F! inst2|inst24|inst~0_combout $end
+$var wire 1 G! inst2|inst29|inst4|inst1~combout $end
+$var wire 1 H! inst2|inst29|inst3|inst1~combout $end
+$var wire 1 I! inst2|inst7|inst18~0_combout $end
+$var wire 1 J! inst2|inst50|inst4~0_combout $end
+$var wire 1 K! inst2|inst50|inst4~1_combout $end
+$var wire 1 L! inst2|inst50|inst4~2_combout $end
+$var wire 1 M! inst2|inst29|inst1|inst1~combout $end
+$var wire 1 N! inst2|inst29|inst2|inst1~combout $end
+$var wire 1 O! inst2|inst30|inst|inst2|inst3~combout $end
+$var wire 1 P! inst2|inst26|inst12~0_combout $end
+$var wire 1 Q! inst2|inst26|inst13~0_combout $end
+$var wire 1 R! inst2|inst29|inst|inst~combout $end
+$var wire 1 S! inst2|inst26|inst14~0_combout $end
+$var wire 1 T! inst2|inst26|inst15~2_combout $end
+$var wire 1 U! inst|inst7~0_combout $end
+$var wire 1 V! inst|inst~0_combout $end
+$var wire 1 W! inst|inst33~0_combout $end
+$var wire 1 X! inst|inst36~0_combout $end
+$var wire 1 Y! inst|inst39~combout $end
+$var wire 1 Z! inst|inst42~0_combout $end
+$var wire 1 [! inst|inst47~0_combout $end
+$var wire 1 \! inst|inst50~0_combout $end
+$var wire 1 ]! inst1|inst7~0_combout $end
+$var wire 1 ^! inst1|inst~0_combout $end
+$var wire 1 _! inst1|inst33~0_combout $end
+$var wire 1 `! inst1|inst36~0_combout $end
+$var wire 1 a! inst1|inst39~combout $end
+$var wire 1 b! inst1|inst42~0_combout $end
+$var wire 1 c! inst1|inst47~0_combout $end
+$var wire 1 d! inst1|inst50~0_combout $end
+$var wire 1 e! inst3|inst|inst4|inst1~combout $end
+$var wire 1 f! inst2|inst28|inst|inst2|inst1~combout $end
+$var wire 1 g! inst2|inst28|inst|inst1|inst1~combout $end
+$var wire 1 h! inst8|inst8~0_combout $end
+$var wire 1 i! inst8|inst8~1_combout $end
+$var wire 1 j! inst8|inst8~2_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+0%
+0&
+0'
+1(
+0)
+0*
+1+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+14
+05
+06
+07
+18
+09
+0:
+1;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+1C
+0D
+1E
+0F
+0G
+1H
+1I
+0J
+0K
+1L
+1M
+1N
+0O
+0P
+0Q
+0R
+0S
+1T
+0U
+0V
+1W
+0X
+1Y
+xZ
+1[
+1\
+1]
+0^
+0_
+0`
+1a
+0b
+0c
+0d
+1e
+0f
+0g
+0h
+0i
+0j
+0k
+1l
+0m
+0n
+1o
+0p
+0q
+1r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+1z
+1{
+0|
+0}
+1~
+1!!
+0"!
+0#!
+1$!
+1%!
+1&!
+0'!
+0(!
+0)!
+1*!
+0+!
+0,!
+0-!
+1.!
+1/!
+00!
+11!
+02!
+03!
+14!
+15!
+06!
+07!
+08!
+09!
+1:!
+0;!
+1<!
+0=!
+0>!
+0?!
+1@!
+0A!
+0B!
+1C!
+0D!
+0E!
+0F!
+1G!
+1H!
+1I!
+0J!
+0K!
+1L!
+1M!
+1N!
+1O!
+0P!
+0Q!
+0R!
+0S!
+1T!
+0U!
+0V!
+0W!
+1X!
+0Y!
+0Z!
+1[!
+0\!
+0]!
+1^!
+0_!
+0`!
+1a!
+1b!
+0c!
+0d!
+1e!
+1f!
+0g!
+1h!
+1i!
+0j!
+$end
+#1000000

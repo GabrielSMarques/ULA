@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Gabriel/Google Drive/Engenharia/Sistemas Digitais/1Project/Quartus/simulation/qsim
+vhard_block
+Z1 !s110 1523667844
+!i10b 1
+!s100 ^KDd9m7M[j13ZXodKhD8_0
+IIlzQMNgJD0]aZKaM82D4L0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1523667842
+Z4 8sdProject.vo
+Z5 FsdProject.vo
+L0 1974
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1523667844.000000
+Z8 !s107 sdProject.vo|
+Z9 !s90 -work|work|sdProject.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vsdProjectMain
+R1
+!i10b 1
+!s100 QgjYN:_B>a7J:b<>eZ4h@3
+IY6k5Uedim>SgIM[<9n`U82
+R2
+R0
+R3
+R4
+R5
+Z12 L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nsd@project@main
+vsdProjectMain_vlg_vec_tst
+R1
+!i10b 1
+!s100 0oWjFY?eU]^nE<ZSRE;>I2
+IcOk4OGeJ30cMZL<[4bFo>2
+R2
+R0
+w1523667840
+8Waveform6.vwf.vt
+FWaveform6.vwf.vt
+Z13 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform6.vwf.vt|
+!s90 -work|work|Waveform6.vwf.vt|
+!i113 1
+R10
+R11
+nsd@project@main_vlg_vec_tst
+vsdProjectMuxDec
+Z14 !s110 1523632950
+!i10b 1
+!s100 G7ZLISa:jV3P6_7ZJf<g61
+IW`7nbUHIGa[WKe4R]bYV71
+R2
+R0
+w1523632934
+R4
+R5
+R12
+R6
+r1
+!s85 0
+31
+!s108 1523632949.000000
+R8
+R9
+!i113 1
+R10
+R11
+nsd@project@mux@dec
+vsdProjectMuxDec_vlg_vec_tst
+R14
+!i10b 1
+!s100 WSeNi`=Nel@YS;^]5:<RD0
+ITdJQEG5Y=WMnCg?D2InBG1
+R2
+R0
+w1523632930
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R13
+R6
+r1
+!s85 0
+31
+!s108 1523632950.000000
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R10
+R11
+nsd@project@mux@dec_vlg_vec_tst

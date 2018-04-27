@@ -1,0 +1,1121 @@
+|sdProjectMain
+SIGNAL <= sdProjectULA:inst.SIGNAL
+A0 => sdProjectULA:inst.A0
+A0 => ASIGNAL.DATAIN
+A1 => sdProjectULA:inst.A1
+A1 => sdDecIn6correto:inst2.e0
+A2 => sdProjectULA:inst.A2
+A2 => sdDecIn6correto:inst2.e1
+A3 => sdProjectULA:inst.A3
+A3 => sdDecIn6correto:inst2.e2
+A4 => sdProjectULA:inst.A4
+A4 => sdDecIn6correto:inst2.e3
+B0 => sdProjectULA:inst.B0
+B0 => BSIGNAL.DATAIN
+B1 => sdProjectULA:inst.B1
+B1 => sdDecIn6correto:inst3.e0
+B2 => sdProjectULA:inst.B2
+B2 => sdDecIn6correto:inst3.e1
+B3 => sdProjectULA:inst.B3
+B3 => sdDecIn6correto:inst3.e2
+B4 => sdProjectULA:inst.B4
+B4 => sdDecIn6correto:inst3.e3
+S0 => sdProjectULA:inst.S0
+S0 => sdProjectMuxDec:inst1.S0
+S0 => sdProjectMuxDec:inst5.S0
+S1 => sdProjectULA:inst.S1
+S1 => sdProjectMuxDec:inst1.S1
+S1 => sdProjectMuxDec:inst5.S1
+S2 => sdProjectULA:inst.S2
+S2 => sdProjectMuxDec:inst1.S2
+S2 => sdProjectMuxDec:inst5.S2
+R0 <= sdProjectULA:inst.R0
+R1 <= sdProjectULA:inst.R1
+R2 <= sdProjectULA:inst.R2
+R3 <= sdProjectULA:inst.R3
+R4 <= sdProjectULA:inst.R4
+OUTCOMP <= sdProjectULA:inst.OUTCOMP
+ASIGNAL <= A0.DB_MAX_OUTPUT_PORT_TYPE
+ADEZA <= sdDecIn6correto:inst2.a
+ADEZB <= sdDecIn6correto:inst2.b
+ADEZC <= sdDecIn6correto:inst2.c
+ADEZD <= sdDecIn6correto:inst2.d
+ADEZE <= sdDecIn6correto:inst2.e
+ADEZF <= sdDecIn6correto:inst2.f
+ADEZG <= sdDecIn6correto:inst2.g
+AUNIA <= sdDecIn6correto:inst2.a10
+AUNIB <= sdDecIn6correto:inst2.b11
+AUNIC <= sdDecIn6correto:inst2.c12
+AUNID <= sdDecIn6correto:inst2.d13
+AUNIE <= sdDecIn6correto:inst2.e14
+AUNIF <= sdDecIn6correto:inst2.f15
+AUNIG <= sdDecIn6correto:inst2.g16
+BSIGNAL <= B0.DB_MAX_OUTPUT_PORT_TYPE
+BDEZA <= sdDecIn6correto:inst3.a
+BDEZB <= sdDecIn6correto:inst3.b
+BDEZC <= sdDecIn6correto:inst3.c
+BDEZD <= sdDecIn6correto:inst3.d
+BDEZE <= sdDecIn6correto:inst3.e
+BDEZF <= sdDecIn6correto:inst3.f
+BDEZG <= sdDecIn6correto:inst3.g
+BUNIA <= sdDecIn6correto:inst3.a10
+BUNIB <= sdDecIn6correto:inst3.b11
+BUNIC <= sdDecIn6correto:inst3.c12
+BUNID <= sdDecIn6correto:inst3.d13
+BUNIE <= sdDecIn6correto:inst3.e14
+BUNIF <= sdDecIn6correto:inst3.f15
+BUNIG <= sdDecIn6correto:inst3.g16
+SDEZA <= sdProjectMuxDec:inst1.OUT0
+SDEZB <= sdProjectMuxDec:inst1.OUT1
+SDEZC <= sdProjectMuxDec:inst1.OUT2
+SDEZD <= sdProjectMuxDec:inst1.OUT3
+SDEZE <= sdProjectMuxDec:inst1.OUT4
+SDEZF <= sdProjectMuxDec:inst1.OUT5
+SDEZG <= sdProjectMuxDec:inst1.OUT6
+SUNIA <= sdProjectMuxDec:inst5.OUT0
+SUNIB <= sdProjectMuxDec:inst5.OUT1
+SUNIC <= sdProjectMuxDec:inst5.OUT2
+SUNID <= sdProjectMuxDec:inst5.OUT3
+SUNIE <= sdProjectMuxDec:inst5.OUT4
+SUNIF <= sdProjectMuxDec:inst5.OUT5
+SUNIG <= sdProjectMuxDec:inst5.OUT6
+
+
+|sdProjectMain|sdProjectULA:inst
+OUTCOMP <= sdProjectCompare:inst8.OUT
+A0 => sdProjectSomadorESubtrator:inst2.A0
+A0 => sdProject_And:inst1.A0
+A0 => sdProject_Xor:inst4.A0
+A1 => sdProjectSomadorESubtrator:inst2.A1
+A1 => sdProject_And:inst1.A1
+A1 => sdProject_Xor:inst4.A1
+A2 => sdProjectSomadorESubtrator:inst2.A2
+A2 => sdProject_And:inst1.A2
+A2 => sdProject_Xor:inst4.A2
+A3 => sdProjectSomadorESubtrator:inst2.A3
+A3 => sdProject_And:inst1.A3
+A3 => sdProject_Xor:inst4.A3
+A4 => sdProjectSomadorESubtrator:inst2.A4
+A4 => sdProject_And:inst1.A4
+A4 => sdProject_Xor:inst4.A4
+B0 => sdProjectSomadorESubtrator:inst2.B0
+B0 => sdProjectComplemento:inst3.B0
+B0 => sdProject_And:inst1.B0
+B0 => sdProject_Xor:inst4.B0
+B1 => sdProjectSomadorESubtrator:inst2.B1
+B1 => sdProjectComplemento:inst3.B1
+B1 => sdProject_And:inst1.B1
+B1 => sdProject_Xor:inst4.B1
+B2 => sdProjectSomadorESubtrator:inst2.B2
+B2 => sdProjectComplemento:inst3.B2
+B2 => sdProject_And:inst1.B2
+B2 => sdProject_Xor:inst4.B2
+B3 => sdProjectSomadorESubtrator:inst2.B3
+B3 => sdProjectComplemento:inst3.B3
+B3 => sdProject_And:inst1.B4
+B3 => sdProject_Xor:inst4.B3
+B4 => sdProjectSomadorESubtrator:inst2.B4
+B4 => sdProjectComplemento:inst3.B4
+B4 => sdProject_And:inst1.B3
+B4 => sdProject_Xor:inst4.B4
+S0 => sdProjectSomadorESubtrator:inst2.S0
+S0 => sdProjectCompare:inst8.S0
+S0 => sdProject_Mux:inst.S0
+S1 => sdProjectSomadorESubtrator:inst2.S1
+S1 => sdProjectCompare:inst8.S1
+S1 => sdProject_Mux:inst.S1
+S2 => sdProjectSomadorESubtrator:inst2.S2
+S2 => sdProjectCompare:inst8.S2
+S2 => sdProject_Mux:inst.S2
+R0 <= sdProject_Mux:inst.R0
+R1 <= sdProject_Mux:inst.R1
+R2 <= sdProject_Mux:inst.R2
+R3 <= sdProject_Mux:inst.R3
+R4 <= sdProject_Mux:inst.R4
+SIGNAL <= sdProjectSomadorESubtrator:inst2.SINAL
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectCompare:inst8
+OUT <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+SIGNAL => Menor:inst2.sinal
+IN0 => Igual:inst.S0
+IN2 => Igual:inst.S1
+IN3 => Igual:inst.S2
+IN4 => Igual:inst.S3
+IN5 => Igual:inst.S4
+S0 => inst11.IN0
+S0 => inst13.IN0
+S0 => inst15.IN0
+S1 => inst16.IN0
+S1 => inst9.IN1
+S2 => inst17.IN0
+S2 => inst14.IN1
+S2 => inst10.IN1
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectCompare:inst8|Mair:inst3
+maiorResult <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+menorResult => inst.IN0
+igualResult => inst1.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectCompare:inst8|Menor:inst2
+menorResult <= menor.DB_MAX_OUTPUT_PORT_TYPE
+sinal => menor.IN0
+igualResult => inst76.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectCompare:inst8|Igual:inst
+result <= igual.DB_MAX_OUTPUT_PORT_TYPE
+S4 => inst73.IN0
+S3 => inst72.IN0
+S1 => inst70.IN0
+S2 => inst71.IN0
+S0 => inst69.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2
+SINAL <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst51.IN0
+A0 => sdProjectDemuxNum:inst24.IN20
+A0 => sdProjectDemuxNum:inst24.S
+A0 => sdProjectDemuxSinal:inst50.IN1
+A1 => sdProjectComplemento:inst27.B1
+A1 => sdProjectDemuxNum:inst24.IN21
+A1 => sdProjectMaiorQueModulo:inst7.IN10
+A2 => sdProjectComplemento:inst27.B2
+A2 => sdProjectDemuxNum:inst24.IN22
+A2 => sdProjectMaiorQueModulo:inst7.IN11
+A3 => sdProjectComplemento:inst27.B3
+A3 => sdProjectDemuxNum:inst24.IN23
+A3 => sdProjectMaiorQueModulo:inst7.IN12
+A4 => sdProjectComplemento:inst27.B4
+A4 => sdProjectDemuxNum:inst24.IN24
+A4 => sdProjectMaiorQueModulo:inst7.IN13
+B0 => inst15.IN0
+B0 => sdProjectDemuxSelecSub:inst.INSOM
+S0 => sdProjectDemuxSelecSub:inst.S0
+S0 => inst18.IN0
+S1 => sdProjectDemuxSelecSub:inst.S1
+S1 => inst19.IN0
+S2 => sdProjectDemuxSelecSub:inst.S2
+S2 => inst17.IN1
+S2 => inst21.IN0
+B1 => sdProjectComplemento:inst28.B1
+B1 => sdProjectDemuxNum:inst25.IN21
+B1 => sdProjectMaiorQueModulo:inst7.IN20
+B2 => sdProjectComplemento:inst28.B2
+B2 => sdProjectDemuxNum:inst25.IN22
+B2 => sdProjectMaiorQueModulo:inst7.IN21
+B3 => sdProjectComplemento:inst28.B3
+B3 => sdProjectDemuxNum:inst25.IN23
+B3 => sdProjectMaiorQueModulo:inst7.IN22
+B4 => sdProjectComplemento:inst28.B4
+B4 => sdProjectDemuxNum:inst25.IN24
+B4 => sdProjectMaiorQueModulo:inst7.IN23
+OUT0 <= sdProjectDemuxNum:inst26.OUT0
+OUT1 <= sdProjectDemuxNum:inst26.OUT1
+OUT2 <= sdProjectDemuxNum:inst26.OUT2
+OUT3 <= sdProjectDemuxNum:inst26.OUT3
+OUT4 <= sdProjectDemuxNum:inst26.OUT4
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxNum:inst26
+OUT0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+IN20 => inst6.IN0
+S => inst11.IN0
+S => inst.IN1
+S => inst2.IN1
+S => inst3.IN1
+S => inst4.IN1
+S => inst5.IN1
+IN10 => inst.IN0
+OUT1 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+IN21 => inst7.IN0
+IN11 => inst2.IN0
+OUT2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+IN22 => inst8.IN0
+IN12 => inst3.IN0
+OUT3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+IN23 => inst9.IN0
+IN13 => inst4.IN0
+OUT4 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+IN24 => inst10.IN0
+IN14 => inst5.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30
+S0 <= sdProjectSomador:inst.OUT0
+B0 => inst34.IN0
+B1 => inst35.IN0
+B2 => inst36.IN0
+B3 => inst37.IN0
+B4 => inst38.IN0
+S1 <= sdProjectSomador:inst.OUT1
+S2 <= sdProjectSomador:inst.OUT2
+S3 <= sdProjectSomador:inst.OUT3
+S4 <= sdProjectSomador:inst.OUT4
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst
+OUT3 <= sdProjectSomadorCompleto:inst1.OUT
+IN15 => sdProjectMeioSomador:inst.IN1
+IN25 => sdProjectMeioSomador:inst.IN2
+IN14 => sdProjectSomadorCompleto:inst1.IN1
+IN124 => sdProjectSomadorCompleto:inst1.IN2
+OUT1 <= sdProjectSomadorCompleto:inst3.OUT
+IN13 => sdProjectSomadorCompleto:inst2.IN1
+IN23 => sdProjectSomadorCompleto:inst2.IN2
+IN12 => sdProjectSomadorCompleto:inst3.IN1
+IN22 => sdProjectSomadorCompleto:inst3.IN2
+OUT2 <= sdProjectSomadorCompleto:inst2.OUT
+OUT4 <= sdProjectMeioSomador:inst.OUT
+OUT0 <= sdProjectSomadorCompleto:inst4.OUT
+IN11 => sdProjectSomadorCompleto:inst4.IN1
+IN21 => sdProjectSomadorCompleto:inst4.IN2
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectSomadorCompleto:inst1
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectMeioSomador:inst
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => inst.IN0
+IN1 => inst2.IN1
+IN2 => inst.IN1
+IN2 => inst2.IN0
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectSomadorCompleto:inst3
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectSomadorCompleto:inst2
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst30|sdProjectSomador:inst|sdProjectSomadorCompleto:inst4
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29
+OUT3 <= sdProjectSomadorCompleto:inst1.OUT
+IN15 => sdProjectMeioSomador:inst.IN1
+IN25 => sdProjectMeioSomador:inst.IN2
+IN14 => sdProjectSomadorCompleto:inst1.IN1
+IN124 => sdProjectSomadorCompleto:inst1.IN2
+OUT1 <= sdProjectSomadorCompleto:inst3.OUT
+IN13 => sdProjectSomadorCompleto:inst2.IN1
+IN23 => sdProjectSomadorCompleto:inst2.IN2
+IN12 => sdProjectSomadorCompleto:inst3.IN1
+IN22 => sdProjectSomadorCompleto:inst3.IN2
+OUT2 <= sdProjectSomadorCompleto:inst2.OUT
+OUT4 <= sdProjectMeioSomador:inst.OUT
+OUT0 <= sdProjectSomadorCompleto:inst4.OUT
+IN11 => sdProjectSomadorCompleto:inst4.IN1
+IN21 => sdProjectSomadorCompleto:inst4.IN2
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectSomadorCompleto:inst1
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectMeioSomador:inst
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => inst.IN0
+IN1 => inst2.IN1
+IN2 => inst.IN1
+IN2 => inst2.IN0
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectSomadorCompleto:inst3
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectSomadorCompleto:inst2
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectSomador:inst29|sdProjectSomadorCompleto:inst4
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxNum:inst24
+OUT0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+IN20 => inst6.IN0
+S => inst11.IN0
+S => inst.IN1
+S => inst2.IN1
+S => inst3.IN1
+S => inst4.IN1
+S => inst5.IN1
+IN10 => inst.IN0
+OUT1 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+IN21 => inst7.IN0
+IN11 => inst2.IN0
+OUT2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+IN22 => inst8.IN0
+IN12 => inst3.IN0
+OUT3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+IN23 => inst9.IN0
+IN13 => inst4.IN0
+OUT4 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+IN24 => inst10.IN0
+IN14 => inst5.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27
+S0 <= sdProjectSomador:inst.OUT0
+B0 => inst34.IN0
+B1 => inst35.IN0
+B2 => inst36.IN0
+B3 => inst37.IN0
+B4 => inst38.IN0
+S1 <= sdProjectSomador:inst.OUT1
+S2 <= sdProjectSomador:inst.OUT2
+S3 <= sdProjectSomador:inst.OUT3
+S4 <= sdProjectSomador:inst.OUT4
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst
+OUT3 <= sdProjectSomadorCompleto:inst1.OUT
+IN15 => sdProjectMeioSomador:inst.IN1
+IN25 => sdProjectMeioSomador:inst.IN2
+IN14 => sdProjectSomadorCompleto:inst1.IN1
+IN124 => sdProjectSomadorCompleto:inst1.IN2
+OUT1 <= sdProjectSomadorCompleto:inst3.OUT
+IN13 => sdProjectSomadorCompleto:inst2.IN1
+IN23 => sdProjectSomadorCompleto:inst2.IN2
+IN12 => sdProjectSomadorCompleto:inst3.IN1
+IN22 => sdProjectSomadorCompleto:inst3.IN2
+OUT2 <= sdProjectSomadorCompleto:inst2.OUT
+OUT4 <= sdProjectMeioSomador:inst.OUT
+OUT0 <= sdProjectSomadorCompleto:inst4.OUT
+IN11 => sdProjectSomadorCompleto:inst4.IN1
+IN21 => sdProjectSomadorCompleto:inst4.IN2
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectSomadorCompleto:inst1
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectMeioSomador:inst
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => inst.IN0
+IN1 => inst2.IN1
+IN2 => inst.IN1
+IN2 => inst2.IN0
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectSomadorCompleto:inst3
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectSomadorCompleto:inst2
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst27|sdProjectSomador:inst|sdProjectSomadorCompleto:inst4
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxNum:inst25
+OUT0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+IN20 => inst6.IN0
+S => inst11.IN0
+S => inst.IN1
+S => inst2.IN1
+S => inst3.IN1
+S => inst4.IN1
+S => inst5.IN1
+IN10 => inst.IN0
+OUT1 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+IN21 => inst7.IN0
+IN11 => inst2.IN0
+OUT2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+IN22 => inst8.IN0
+IN12 => inst3.IN0
+OUT3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+IN23 => inst9.IN0
+IN13 => inst4.IN0
+OUT4 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+IN24 => inst10.IN0
+IN14 => inst5.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28
+S0 <= sdProjectSomador:inst.OUT0
+B0 => inst34.IN0
+B1 => inst35.IN0
+B2 => inst36.IN0
+B3 => inst37.IN0
+B4 => inst38.IN0
+S1 <= sdProjectSomador:inst.OUT1
+S2 <= sdProjectSomador:inst.OUT2
+S3 <= sdProjectSomador:inst.OUT3
+S4 <= sdProjectSomador:inst.OUT4
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst
+OUT3 <= sdProjectSomadorCompleto:inst1.OUT
+IN15 => sdProjectMeioSomador:inst.IN1
+IN25 => sdProjectMeioSomador:inst.IN2
+IN14 => sdProjectSomadorCompleto:inst1.IN1
+IN124 => sdProjectSomadorCompleto:inst1.IN2
+OUT1 <= sdProjectSomadorCompleto:inst3.OUT
+IN13 => sdProjectSomadorCompleto:inst2.IN1
+IN23 => sdProjectSomadorCompleto:inst2.IN2
+IN12 => sdProjectSomadorCompleto:inst3.IN1
+IN22 => sdProjectSomadorCompleto:inst3.IN2
+OUT2 <= sdProjectSomadorCompleto:inst2.OUT
+OUT4 <= sdProjectMeioSomador:inst.OUT
+OUT0 <= sdProjectSomadorCompleto:inst4.OUT
+IN11 => sdProjectSomadorCompleto:inst4.IN1
+IN21 => sdProjectSomadorCompleto:inst4.IN2
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectSomadorCompleto:inst1
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectMeioSomador:inst
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => inst.IN0
+IN1 => inst2.IN1
+IN2 => inst.IN1
+IN2 => inst2.IN0
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectSomadorCompleto:inst3
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectSomadorCompleto:inst2
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectComplemento:inst28|sdProjectSomador:inst|sdProjectSomadorCompleto:inst4
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxSelecSub:inst
+SIGNAL <= inst30.DB_MAX_OUTPUT_PORT_TYPE
+INSOM => inst10.IN0
+S0 => inst8.IN0
+S0 => inst19.IN0
+S0 => inst17.IN0
+S1 => inst9.IN0
+S1 => inst15.IN1
+S2 => inst13.IN0
+S2 => inst20.IN1
+S2 => inst16.IN1
+S2 => inst7.IN1
+INSUB => inst14.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectDemuxSinal:inst50
+OUT <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+S => inst3.IN0
+S => inst0.IN1
+IN1 => inst0.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectSomadorESubtrator:inst2|sdProjectMaiorQueModulo:inst7
+OUT <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+IN12 => inst2.IN0
+IN12 => inst8.IN0
+IN22 => inst6.IN0
+IN22 => inst8.IN1
+IN10 => inst10.IN0
+IN10 => inst0.IN0
+IN20 => inst10.IN1
+IN20 => inst4.IN0
+IN11 => inst11.IN0
+IN11 => inst1.IN0
+IN21 => inst11.IN1
+IN21 => inst5.IN0
+IN13 => inst3.IN0
+IN23 => inst7.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProject_Mux:inst
+R0 <= inst63.DB_MAX_OUTPUT_PORT_TYPE
+saidaXor0 => inst48.IN0
+S0 => 111.IN0
+S0 => 110.IN0
+S0 => inst.IN0
+S1 => 111.IN1
+S1 => 110.IN1
+S1 => 010.IN1
+S1 => inst2.IN0
+S2 => 111.IN2
+S2 => inst29.IN0
+S2 => inst31.IN0
+saidaAnd0 => inst43.IN0
+saidaCompl0 => inst38.IN0
+saidaSoma0 => inst33.IN0
+R1 <= inst64.DB_MAX_OUTPUT_PORT_TYPE
+saidaXor1 => inst49.IN0
+saidaAnd1 => inst44.IN0
+saidaCompl1 => inst39.IN0
+saidaSoma1 => inst34.IN0
+R2 <= inst65.DB_MAX_OUTPUT_PORT_TYPE
+saidaXor2 => inst50.IN0
+saidaAnd2 => inst45.IN0
+saidaCompl2 => inst40.IN0
+saidaSoma2 => inst35.IN0
+R3 <= inst66.DB_MAX_OUTPUT_PORT_TYPE
+saidaXor3 => inst51.IN0
+saidaAnd3 => inst46.IN0
+saidaCompl3 => inst41.IN0
+saidaSoma3 => inst36.IN0
+R4 <= inst67.DB_MAX_OUTPUT_PORT_TYPE
+saidaXor4 => inst52.IN0
+saidaAnd4 => inst47.IN0
+saidaCompl4 => inst42.IN0
+saidaSoma4 => inst37.IN0
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectComplemento:inst3
+S0 <= sdProjectSomador:inst.OUT0
+B0 => inst34.IN0
+B1 => inst35.IN0
+B2 => inst36.IN0
+B3 => inst37.IN0
+B4 => inst38.IN0
+S1 <= sdProjectSomador:inst.OUT1
+S2 <= sdProjectSomador:inst.OUT2
+S3 <= sdProjectSomador:inst.OUT3
+S4 <= sdProjectSomador:inst.OUT4
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst
+OUT3 <= sdProjectSomadorCompleto:inst1.OUT
+IN15 => sdProjectMeioSomador:inst.IN1
+IN25 => sdProjectMeioSomador:inst.IN2
+IN14 => sdProjectSomadorCompleto:inst1.IN1
+IN124 => sdProjectSomadorCompleto:inst1.IN2
+OUT1 <= sdProjectSomadorCompleto:inst3.OUT
+IN13 => sdProjectSomadorCompleto:inst2.IN1
+IN23 => sdProjectSomadorCompleto:inst2.IN2
+IN12 => sdProjectSomadorCompleto:inst3.IN1
+IN22 => sdProjectSomadorCompleto:inst3.IN2
+OUT2 <= sdProjectSomadorCompleto:inst2.OUT
+OUT4 <= sdProjectMeioSomador:inst.OUT
+OUT0 <= sdProjectSomadorCompleto:inst4.OUT
+IN11 => sdProjectSomadorCompleto:inst4.IN1
+IN21 => sdProjectSomadorCompleto:inst4.IN2
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectSomadorCompleto:inst1
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectMeioSomador:inst
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => inst.IN0
+IN1 => inst2.IN1
+IN2 => inst.IN1
+IN2 => inst2.IN0
+CARRY <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectSomadorCompleto:inst3
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectSomadorCompleto:inst2
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProjectComplemento:inst3|sdProjectSomador:inst|sdProjectSomadorCompleto:inst4
+CARRY <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst2.IN0
+IN2 => inst.IN1
+IN1 => inst2.IN1
+IN1 => inst.IN0
+INC => inst3.IN0
+INC => inst1.IN0
+OUT <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectULA:inst|sdProject_And:inst1
+R0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst.IN0
+B0 => inst.IN1
+R1 <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+B1 => inst11.IN0
+A1 => inst11.IN1
+R2 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst12.IN0
+B2 => inst12.IN1
+R3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst13.IN0
+B4 => inst13.IN1
+R4 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+A4 => inst14.IN0
+B3 => inst14.IN1
+
+
+|sdProjectMain|sdProjectULA:inst|sdProject_Xor:inst4
+R0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A0 => inst.IN0
+B0 => inst.IN1
+R1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+B1 => inst1.IN0
+A1 => inst1.IN1
+R2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+A2 => inst2.IN0
+B2 => inst2.IN1
+R3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+A3 => inst3.IN0
+B3 => inst3.IN1
+R4 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A4 => inst4.IN0
+B4 => inst4.IN1
+
+
+|sdProjectMain|sdDecIn6correto:inst2
+a <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e0 => inst17.IN0
+e0 => inst1.IN0
+e0 => inst24.IN0
+e0 => inst28.IN0
+e0 => inst29.IN0
+e0 => inst32.IN0
+e0 => inst35.IN0
+e0 => inst41.IN0
+e0 => inst6.IN0
+e0 => inst49.IN0
+e2 => inst17.IN1
+e2 => inst26.IN0
+e2 => inst28.IN2
+e2 => inst29.IN2
+e2 => inst32.IN2
+e2 => inst2.IN2
+e2 => inst34.IN2
+e2 => inst38.IN2
+e2 => inst41.IN2
+e2 => inst45.IN2
+e2 => inst46.IN1
+e2 => inst5.IN1
+e2 => inst49.IN2
+e1 => inst1.IN1
+e1 => inst25.IN0
+e1 => inst29.IN1
+e1 => inst27.IN1
+e1 => inst32.IN1
+e1 => inst2.IN1
+e1 => inst31.IN1
+e1 => inst35.IN1
+e1 => inst38.IN1
+e1 => inst40.IN1
+e1 => inst41.IN1
+e1 => inst6.IN1
+b <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+a10 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+e3 => inst23.IN3
+e3 => inst28.IN3
+e3 => inst30.IN0
+e3 => inst32.IN3
+e3 => inst31.IN3
+e3 => inst38.IN3
+e3 => inst42.IN2
+e3 => inst46.IN2
+e3 => inst44.IN2
+e3 => inst5.IN2
+b11 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+c12 <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+d13 <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+e14 <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+f15 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+g16 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdDecIn6correto:inst3
+a <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e0 => inst17.IN0
+e0 => inst1.IN0
+e0 => inst24.IN0
+e0 => inst28.IN0
+e0 => inst29.IN0
+e0 => inst32.IN0
+e0 => inst35.IN0
+e0 => inst41.IN0
+e0 => inst6.IN0
+e0 => inst49.IN0
+e2 => inst17.IN1
+e2 => inst26.IN0
+e2 => inst28.IN2
+e2 => inst29.IN2
+e2 => inst32.IN2
+e2 => inst2.IN2
+e2 => inst34.IN2
+e2 => inst38.IN2
+e2 => inst41.IN2
+e2 => inst45.IN2
+e2 => inst46.IN1
+e2 => inst5.IN1
+e2 => inst49.IN2
+e1 => inst1.IN1
+e1 => inst25.IN0
+e1 => inst29.IN1
+e1 => inst27.IN1
+e1 => inst32.IN1
+e1 => inst2.IN1
+e1 => inst31.IN1
+e1 => inst35.IN1
+e1 => inst38.IN1
+e1 => inst40.IN1
+e1 => inst41.IN1
+e1 => inst6.IN1
+b <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+a10 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+e3 => inst23.IN3
+e3 => inst28.IN3
+e3 => inst30.IN0
+e3 => inst32.IN3
+e3 => inst31.IN3
+e3 => inst38.IN3
+e3 => inst42.IN2
+e3 => inst46.IN2
+e3 => inst44.IN2
+e3 => inst5.IN2
+b11 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+c12 <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+d13 <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+e14 <= inst42.DB_MAX_OUTPUT_PORT_TYPE
+f15 <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+g16 <= inst50.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectMuxDec:inst1
+OUT0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S0 => inst18.IN0
+S1 => inst19.IN0
+S2 => inst17.IN1
+S2 => inst20.IN0
+IN0 => inst.IN1
+OUT1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => inst2.IN1
+OUT2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst3.IN1
+OUT3 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN3 => inst4.IN1
+OUT4 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+IN4 => inst5.IN1
+OUT5 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+IN5 => inst6.IN1
+OUT6 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+IN6 => inst7.IN1
+
+
+|sdProjectMain|sdDecOut:inst4
+a <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+E0 => inst10.IN0
+E0 => inst25.IN0
+E0 => inst29.IN0
+E0 => inst30.IN0
+E0 => inst28.IN0
+E0 => inst73.IN0
+E0 => inst76.IN0
+E0 => inst70.IN0
+E0 => inst86.IN0
+E0 => inst159.IN0
+E0 => inst156.IN0
+E0 => inst96.IN0
+E0 => inst102.IN0
+E0 => inst112.IN0
+E0 => inst171.IN0
+E0 => inst123.IN0
+E0 => inst37.IN2
+E0 => inst131.IN0
+E0 => inst133.IN0
+E0 => inst134.IN0
+E0 => inst147.IN0
+E0 => inst146.IN0
+E1 => inst24.IN1
+E1 => inst19.IN0
+E1 => inst23.IN1
+E1 => inst30.IN1
+E1 => inst33.IN0
+E1 => inst73.IN1
+E1 => inst76.IN1
+E1 => inst64.IN1
+E1 => inst67.IN1
+E1 => inst83.IN1
+E1 => inst86.IN1
+E1 => inst156.IN1
+E1 => inst93.IN1
+E1 => inst101.IN0
+E1 => inst109.IN1
+E1 => inst112.IN1
+E1 => inst171.IN1
+E1 => inst122.IN1
+E1 => inst123.IN1
+E1 => inst35.IN0
+E1 => inst36.IN0
+E1 => inst132.IN1
+E1 => inst130.IN0
+E1 => inst145.IN0
+E1 => inst147.IN1
+E1 => inst144.IN1
+E2 => inst24.IN2
+E2 => inst20.IN0
+E2 => inst29.IN1
+E2 => inst28.IN2
+E2 => inst33.IN1
+E2 => inst78.IN0
+E2 => inst72.IN0
+E2 => inst69.IN0
+E2 => inst63.IN0
+E2 => inst82.IN0
+E2 => inst79.IN0
+E2 => inst164.IN0
+E2 => inst95.IN0
+E2 => inst98.IN0
+E2 => inst105.IN0
+E2 => inst111.IN0
+E2 => inst108.IN0
+E2 => inst122.IN2
+E2 => inst153.IN2
+E2 => inst36.IN1
+E2 => inst132.IN2
+E2 => inst133.IN1
+E2 => inst134.IN2
+E2 => inst147.IN2
+E2 => inst148.IN2
+E2 => inst146.IN2
+E3 => inst23.IN2
+E3 => inst22.IN0
+E3 => inst33.IN2
+E3 => inst78.IN1
+E3 => inst66.IN1
+E3 => inst69.IN1
+E3 => inst82.IN1
+E3 => inst158.IN1
+E3 => inst164.IN1
+E3 => inst98.IN1
+E3 => inst92.IN1
+E3 => inst101.IN2
+E3 => inst111.IN1
+E3 => inst108.IN1
+E3 => inst171.IN2
+E3 => inst122.IN3
+E3 => inst35.IN1
+E3 => inst130.IN2
+E3 => inst133.IN2
+E3 => inst134.IN3
+E3 => inst168.IN3
+E3 => inst167.IN2
+E3 => inst145.IN2
+E3 => inst147.IN3
+E3 => inst148.IN3
+E3 => inst144.IN3
+b <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst32.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+e <= inst34.DB_MAX_OUTPUT_PORT_TYPE
+a12 <= inst57.DB_MAX_OUTPUT_PORT_TYPE
+E4 => inst21.IN0
+E4 => inst78.IN2
+E4 => inst72.IN2
+E4 => inst61.IN2
+E4 => inst66.IN2
+E4 => inst82.IN2
+E4 => inst85.IN2
+E4 => inst79.IN2
+E4 => inst101.IN3
+E4 => inst102.IN3
+E4 => inst100.IN3
+E4 => inst108.IN2
+E4 => inst171.IN3
+E4 => inst155.IN0
+E4 => inst131.IN3
+E4 => inst130.IN3
+E4 => inst133.IN3
+E4 => inst129.IN3
+E4 => inst167.IN3
+E4 => inst145.IN3
+E4 => inst149.IN1
+E4 => inst143.IN3
+b13 <= inst166.DB_MAX_OUTPUT_PORT_TYPE
+c14 <= inst99.DB_MAX_OUTPUT_PORT_TYPE
+d15 <= inst200.DB_MAX_OUTPUT_PORT_TYPE
+e16 <= inst155.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst37.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst39.DB_MAX_OUTPUT_PORT_TYPE
+f17 <= inst139.DB_MAX_OUTPUT_PORT_TYPE
+g18 <= inst152.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sdProjectMain|sdProjectMuxDec:inst5
+OUT0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+S0 => inst18.IN0
+S1 => inst19.IN0
+S2 => inst17.IN1
+S2 => inst20.IN0
+IN0 => inst.IN1
+OUT1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => inst2.IN1
+OUT2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst3.IN1
+OUT3 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+IN3 => inst4.IN1
+OUT4 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+IN4 => inst5.IN1
+OUT5 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+IN5 => inst6.IN1
+OUT6 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+IN6 => inst7.IN1
+
+

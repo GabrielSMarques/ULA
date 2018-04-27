@@ -1,0 +1,237 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SIGNAL",
+					"strict" : false
+				},
+				{
+					"name" : "R0",
+					"strict" : false
+				},
+				{
+					"name" : "R1",
+					"strict" : false
+				},
+				{
+					"name" : "R2",
+					"strict" : false
+				},
+				{
+					"name" : "R3",
+					"strict" : false
+				},
+				{
+					"name" : "R4",
+					"strict" : false
+				},
+				{
+					"name" : "OUTCOMP",
+					"strict" : false
+				},
+				{
+					"name" : "ASIGNAL",
+					"strict" : false
+				},
+				{
+					"name" : "ADEZA",
+					"strict" : false
+				},
+				{
+					"name" : "ADEZD",
+					"strict" : false
+				},
+				{
+					"name" : "ADEZE",
+					"strict" : false
+				},
+				{
+					"name" : "ADEZF",
+					"strict" : false
+				},
+				{
+					"name" : "AUNIA",
+					"strict" : false
+				},
+				{
+					"name" : "AUNIB",
+					"strict" : false
+				},
+				{
+					"name" : "AUNIC",
+					"strict" : false
+				},
+				{
+					"name" : "AUNID",
+					"strict" : false
+				},
+				{
+					"name" : "AUNIE",
+					"strict" : false
+				},
+				{
+					"name" : "AUNIF",
+					"strict" : false
+				},
+				{
+					"name" : "AUNIG",
+					"strict" : false
+				},
+				{
+					"name" : "BSIGNAL",
+					"strict" : false
+				},
+				{
+					"name" : "BDEZA",
+					"strict" : false
+				},
+				{
+					"name" : "BDEZD",
+					"strict" : false
+				},
+				{
+					"name" : "BDEZE",
+					"strict" : false
+				},
+				{
+					"name" : "BDEZF",
+					"strict" : false
+				},
+				{
+					"name" : "BUNIA",
+					"strict" : false
+				},
+				{
+					"name" : "BUNIB",
+					"strict" : false
+				},
+				{
+					"name" : "BUNIC",
+					"strict" : false
+				},
+				{
+					"name" : "BUNID",
+					"strict" : false
+				},
+				{
+					"name" : "BUNIE",
+					"strict" : false
+				},
+				{
+					"name" : "BUNIF",
+					"strict" : false
+				},
+				{
+					"name" : "BUNIG",
+					"strict" : false
+				},
+				{
+					"name" : "SDEZA",
+					"strict" : false
+				},
+				{
+					"name" : "SDEZC",
+					"strict" : false
+				},
+				{
+					"name" : "SDEZD",
+					"strict" : false
+				},
+				{
+					"name" : "SDEZE",
+					"strict" : false
+				},
+				{
+					"name" : "SDEZF",
+					"strict" : false
+				},
+				{
+					"name" : "SDEZG",
+					"strict" : false
+				},
+				{
+					"name" : "SUNIA",
+					"strict" : false
+				},
+				{
+					"name" : "SUNIB",
+					"strict" : false
+				},
+				{
+					"name" : "SUNIC",
+					"strict" : false
+				},
+				{
+					"name" : "SUNID",
+					"strict" : false
+				},
+				{
+					"name" : "SUNIE",
+					"strict" : false
+				},
+				{
+					"name" : "SUNIF",
+					"strict" : false
+				},
+				{
+					"name" : "SUNIG",
+					"strict" : false
+				},
+				{
+					"name" : "A0",
+					"strict" : false
+				},
+				{
+					"name" : "S2",
+					"strict" : false
+				},
+				{
+					"name" : "S0",
+					"strict" : false
+				},
+				{
+					"name" : "S1",
+					"strict" : false
+				},
+				{
+					"name" : "B0",
+					"strict" : false
+				},
+				{
+					"name" : "A1",
+					"strict" : false
+				},
+				{
+					"name" : "A2",
+					"strict" : false
+				},
+				{
+					"name" : "A3",
+					"strict" : false
+				},
+				{
+					"name" : "A4",
+					"strict" : false
+				},
+				{
+					"name" : "B4",
+					"strict" : false
+				},
+				{
+					"name" : "B3",
+					"strict" : false
+				},
+				{
+					"name" : "B2",
+					"strict" : false
+				},
+				{
+					"name" : "B1",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
